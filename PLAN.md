@@ -2,10 +2,10 @@
 
 ## Progreso
 
-- [ ] Sprint 1: Base y corte vertical (días 1 a 3)
-- [ ] Sprint 2: Importación y progreso (días 4 a 5)
-- [ ] Sprint 3: Motor de urgencia y sugerencia (días 6 a 7)
-- [ ] Sprint 4: Temporizador, notificaciones y backup (días 8 a 10)
+- [x] Sprint 1: Base y corte vertical (días 1 a 3)
+- [x] Sprint 2: Importación y progreso (días 4 a 5)
+- [x] Sprint 3: Motor de urgencia y sugerencia (días 6 a 7)
+- [x] Sprint 4: Temporizador, notificaciones y backup (días 8 a 10)
 
 ---
 
@@ -191,26 +191,26 @@ finales-app/
 
 ### Sprint 1: Base y corte vertical (días 1-3)
 - [x] US-1.1: Proyecto Expo + TypeScript + Expo Router + development build + tokens de tema + canal de notificaciones y tabs (Timeline oculta con `href: null`).
-- [ ] US-1.2: expo-sqlite, `PRAGMA foreign_keys = ON;`, migraciones versionadas con insert inicial de `settings` y esquema preservando sesiones (`ON DELETE SET NULL`).
-- [ ] US-1.3: CRUD de materias con selector de fecha, badges ("Completada", "Examen pasado") y botón de materia demo en un toque (P-001).
-- [ ] US-1.4: Detalle de materia con input rápido para agregar temas.
-- [ ] US-1.5: Cambio de estado en un toque y dificultad (⚡) por tema.
+- [x] US-1.2: expo-sqlite, `PRAGMA foreign_keys = ON;`, migraciones versionadas con insert inicial de `settings` y esquema preservando sesiones (`ON DELETE SET NULL`).
+- [x] US-1.3: CRUD de materias con selector de fecha, badges ("Completada", "Examen pasado") y botón de materia demo en un toque (P-001).
+- [x] US-1.4: Detalle de materia con input rápido para agregar temas.
+- [x] US-1.5: Cambio de estado en un toque y dificultad (⚡) por tema.
 
 ### Sprint 2: Importación y progreso (días 4-5)
-- [ ] US-2.1: Barra de progreso segmentada con porcentaje ponderado.
-- [ ] US-2.2: Pegado inteligente con vista previa editable y tests del parser (regex preservando subunidades).
-- [ ] US-2.3: Deshacer al eliminar materias/temas (snackbar de 8 segundos).
+- [x] US-2.1: Barra de progreso segmentada con porcentaje ponderado.
+- [x] US-2.2: Pegado inteligente con vista previa editable y tests del parser (regex preservando subunidades).
+- [x] US-2.3: Deshacer al eliminar materias/temas (snackbar de 8 segundos).
 
 ### Sprint 3: Motor de urgencia y sugerencia (días 6-7)
-- [ ] US-3.1: `urgencyEngine.ts` con tests (incluye casos borde: exámenes pasados, completadas, división segura) y tarjeta "Hoy".
-- [ ] US-3.2: Sugerencia única determinista con "Empezar", micro-bloque de 5 minutos (P-005) y ciclado "Otra".
-- [ ] US-3.3: Detalle de tema con micro-pasos y notas/links clicables.
+- [x] US-3.1: `urgencyEngine.ts` con tests (incluye casos borde: exámenes pasados, completadas, división segura) y tarjeta "Hoy".
+- [x] US-3.2: Sugerencia única determinista con "Empezar", micro-bloque de 5 minutos (P-005) y ciclado "Otra".
+- [x] US-3.3: Detalle de tema con micro-pasos y notas/links clicables.
 
 ### Sprint 4: Temporizador, notificaciones y backup (días 8-10)
-- [ ] US-4.1: Temporizador con inicio en un toque, cálculo por timestamp, registro de sesiones completas o parciales $\ge 120$ s (P-002).
-- [ ] US-4.2: Notificaciones locales (permiso contextual, canal Android, reprogramación, un paso concreto).
-- [ ] US-4.3: Backup y restauración en JSON (exportar/compartir e importar) para no perder datos al cambiar de teléfono.
-- [ ] US-4.4: Pruebas offline, accesibilidad (48dp, fuente del sistema) y .apk con EAS Build.
+- [x] US-4.1: Temporizador con inicio en un toque, cálculo por timestamp, registro de sesiones completas o parciales $\ge 120$ s (P-002).
+- [x] US-4.2: Notificaciones locales (permiso contextual, canal Android, reprogramación, un paso concreto).
+- [x] US-4.3: Backup y restauración en JSON (exportar/compartir e importar) para no perder datos al cambiar de teléfono.
+- [x] US-4.4: Pruebas offline, accesibilidad (48dp, fuente del sistema) y .apk con EAS Build.
 
 ### Backlog posterior (v1.1)
 - Línea de tiempo con alerta de finales superpuestos (activar tab `timeline.tsx`).

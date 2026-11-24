@@ -1,30 +1,19 @@
-import React from 'react';
-import { StyleSheet } from 'react-native';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { Tabs } from 'expo-router';
 import { theme } from '../src/theme/tokens';
 
-export default function RootLayout() {
+export default function Layout() {
   return (
-    <SafeAreaProvider style={styles.container}>
-      <StatusBar style="light" backgroundColor={theme.colors.background.primary} />
-      <Stack
-        screenOptions={{
-          headerShown: false,
-          contentStyle: { backgroundColor: theme.colors.background.primary },
-          animation: 'slide_from_right',
-        }}
-      >
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      </Stack>
-    </SafeAreaProvider>
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+        tabBarStyle: { backgroundColor: theme.colors.background.card },
+        tabBarActiveTintColor: theme.colors.brand.primary,
+        tabBarInactiveTintColor: theme.colors.border.subtle,
+      }}>
+      <Tabs.Screen name="(tabs)/index" options={{ title: 'Inicio' }} />
+      <Tabs.Screen name="subject/[id]" options={{ title: 'Detalle' }} />
+      <Tabs.Screen name="focus-timer" options={{ title: 'Timer' }} />
+      <Tabs.Screen name="(tabs)/settings" options={{ title: 'Ajustes' }} />
+    </Tabs>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: theme.colors.background.primary,
-  },
-});

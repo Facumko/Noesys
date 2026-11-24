@@ -4,12 +4,12 @@ Conforme a la sección 10 de `AGENTS.md`, este archivo registra todas las propue
 
 | ID | Título | Tipo | Estado | Decisión / Fecha |
 | :--- | :--- | :--- | :--- | :--- |
-| **P-001** | Materia de bienvenida interactiva (Onboarding sin fricción) | Mejora | Aprobada | 2026-11-24: Incorporada a Sprint 1 (US-1.3) |
-| **P-002** | Guardado de tiempo parcial en temporizador interrumpido | Corrección / Mejora | Aprobada | 2026-11-24: Incorporada a Sprint 4 (US-4.1) |
-| **P-003** | Ocultar tab "Timeline" de la barra de navegación en v1 | Corrección | Aprobada | 2026-11-24: Incorporada a Sprint 1 (US-1.1) |
-| **P-004** | Desacoplar sesiones de estudio del borrado de temas (`ON DELETE SET NULL`) | Corrección | Aprobada | 2026-11-24: Incorporada a Sprint 1 (US-1.2) |
-| **P-005** | Micro-bloque anti-procrastinación ("Arrancar con 5 minutos") | Innovación | Aprobada | 2026-11-24: Incorporada a Sprint 3 (US-3.2) |
-| **P-006** | Estado de materia explícito "Listo" y "Examen pasado" en tarjetas | Mejora | Aprobada | 2026-11-24: Incorporada a Sprint 1 y Sprint 3 |
+| **P-001** | Materia de bienvenida interactiva (Onboarding sin fricción) | Mejora | Implementada | 2026-11-24: Incorporada en Home (US-1.3) |
+| **P-002** | Guardado de tiempo parcial en temporizador interrumpido | Corrección / Mejora | Implementada | 2026-11-24: Implementada en focus-timer (US-4.1) |
+| **P-003** | Ocultar tab "Timeline" de la barra de navegación en v1 | Corrección | Implementada | 2026-11-24: Implementada en TabLayout (US-1.1) |
+| **P-004** | Desacoplar sesiones de estudio del borrado de temas (`ON DELETE SET NULL`) | Corrección | Implementada | 2026-11-24: Implementada en migración v1 (US-1.2) |
+| **P-005** | Micro-bloque anti-procrastinación ("Arrancar con 5 minutos") | Innovación | Implementada | 2026-11-24: Implementada en SuggestionCard (US-3.2) |
+| **P-006** | Estado de materia explícito "Listo" y "Examen pasado" en tarjetas | Mejora | Implementada | 2026-11-24: Implementada en SubjectCard (US-1.3, US-3.1) |
 
 ---
 

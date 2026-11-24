@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Finales",
+    "slug": "finales-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "finales",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#121417"
+    },
+    "android": {
+      "package": "com.noesys.finales",
+      "adaptiveIcon": {
+        "backgroundColor": "#121417"
+      },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#3B82F6"
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
